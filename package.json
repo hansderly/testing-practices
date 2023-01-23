@@ -2,10 +2,12 @@
   "name": "testing-practices",
   "version": "1.0.0",
   "main": "app.js",
-  "type": "module",
   "repository": "git@github.com:hansderly/testing-practices.git",
   "author": "Hans-Derly Rameau <rameauhansderly@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^29.3.1"
   }
