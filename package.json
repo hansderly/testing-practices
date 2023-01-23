@@ -1,0 +1,11 @@
+{
+  "name": "testing-practices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hansderly/testing-practices.git",
+  "author": "Hans-Derly Rameau <rameauhansderly@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
