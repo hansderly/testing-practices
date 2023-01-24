@@ -1,5 +1,4 @@
 const { Calculator } = require('./calculator');
-const assert = require('assert');
 
 describe('2 + 2', () => {
 	const calculator = new Calculator(2, 2);
@@ -9,11 +8,11 @@ describe('2 + 2', () => {
 	});
 
 	it('should return 4', () => {
-		expect(calculator.add()).tobe(4);
+		expect(calculator.add()).toBe(4);
 	});
 
 	it('should be less than 5', () => {
-		expect(calculator.add()).tobelessthan(5);
+		expect(calculator.add()).toBeLessThan(5);
 	});
 });
 
@@ -25,11 +24,11 @@ describe('2 * 2', () => {
 	});
 
 	it('should return 4', () => {
-		expect(calculator.multiply()).tobe(4);
+		expect(calculator.multiply()).toBe(4);
 	});
 
 	it('should be less than 5', () => {
-		expect(calculator.multiply()).tobelessthan(5);
+		expect(calculator.multiply()).toBeLessThan(5);
 	});
 });
 
@@ -41,11 +40,11 @@ describe('2 - 2', () => {
 	});
 
 	it('should return 0', () => {
-		expect(calculator.substract()).tobe(0);
+		expect(calculator.substract()).toBe(0);
 	});
 
 	it('should be less than 1', () => {
-		expect(calculator.substract()).tobelessthan(1);
+		expect(calculator.substract()).toBeLessThan(1);
 	});
 });
 
@@ -57,11 +56,10 @@ describe('2 / 2', () => {
 	});
 
 	it('should return 1', () => {
-		console.log(calculator.divide());
-		expect(calculator.divide()).tobe(1);
+		expect(calculator.divide()).toBe(1);
 	});
 
 	it('should be less than 2', () => {
-		expect(calculator.divide()).tobelessthan(2);
+		expect(calculator.divide()).toBeLessThan(2);
 	});
 });
